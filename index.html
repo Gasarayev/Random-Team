@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rastgele Takım Oluşturucu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>3cu gun 22:00 Royal Park</h1>
+        <form id="teamForm">
+            <label for="team1Name">1. Komanda Adı:</label>
+            <input type="text" id="team1Name" required>
+
+            <label for="team2Name">2. Komanda Adı:</label>
+            <input type="text" id="team2Name" required>
+
+            <label for="players">Oyuncu Adlari (vergulle ayırın):</label>
+            <textarea id="players" rows="4" required></textarea>
+
+            <button type="submit">Komanda Duzelt</button>
+        </form>
+
+        <div class="result" id="result"></div>
+    </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
